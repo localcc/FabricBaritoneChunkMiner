@@ -1,16 +1,17 @@
-# Fabric Example Mod
+# Baritone Chunk Miner
 
-## Setup
+## Compiling from source
 
-1. Edit build.gradle and mod.json to suit your needs.
-    * The "mixins" object can be removed from mod.json if you do not need to use mixins.
-    * Please replace all occurences of "modid" with your own mod ID - sometimes, a different string may also suffice.
-2. Run the following command:
+Clone this repo `git clone https://github.com/localcc/FabricBaritoneChunkMiner.git`
 
-```
-./gradlew idea
-```
+Compile using `./gradlew jar`
 
-## License
 
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Downloading prebuilt jar file
+
+Head to [Releases](https://github.com/localcc/FabricBaritoneChunkMiner/releases) page and download the latest release
+
+## Usage
+
+Write json command to chat, generated with either the [generator](https://github.com/localcc/BaritoneChunkMinerJsonGenerator) or written yourself.
+The bots should start mining
