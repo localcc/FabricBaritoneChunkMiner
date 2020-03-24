@@ -1,12 +1,12 @@
 {
   "required": true,
   "minVersion": "0.8",
-  "package": "net.fabricmc.example.mixin",
+  "package": "com.localcc.baritonechunkminer.mixins",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
   ],
   "client": [
-    "ExampleMixin"
+    "ChatMessageMixin"
   ],
   "injectors": {
     "defaultRequire": 1
